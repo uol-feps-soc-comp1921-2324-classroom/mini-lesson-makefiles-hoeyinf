@@ -20,7 +20,7 @@ SRCS = $(wildcard *.c)
 OBJS = $(SRCS:.c=.o)
 
 # Name of the executable - YOU EDIT THIS BIT WITH YOUR EXECUTABLE NAME
-TARGET = file_manager
+TARGET = testmakefile
 
 # Build the executable
 $(TARGET): $(OBJS)
